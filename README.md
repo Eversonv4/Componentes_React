@@ -4,6 +4,16 @@
 npx create-react-app Meu_Primeiro_Projeto
 ```
 
+## Node_Modules
+
+Depois que você criar seu projeto, repare que foi criado automático uma pasta
+node_modules, nesta pasta vai conter suas dependências, já foi criado um projeto
+projeto basico de react, de exemplo.
+Exemplo, se você, instalar, o bootstrap, para seu projeto ficar mais bunito, você irá,
+fazer, o comando yarn add bootstrap, no terminal, ai suas dependências vai ficar instalada
+dentro desta pasta, para auxiliar você no desenvolvimento, lembrando que na sua pasta package.json,
+da para ver todos os nomes de suas dependências que foram instaladas, mais facil.
+
 ## Componente, Function Component
 
 ```js
@@ -12,7 +22,7 @@ import React from "react";
 
 function App_function_Component() {
   return (
-    <div className="AppPrincipal">
+    <div className="App_function_Component">
       <h1>Componente principal</h1>
     </div>
   );
@@ -20,6 +30,21 @@ function App_function_Component() {
 
 //Exportando Componente
 export default App_function_Component;
+```
+
+## Componente, Function Component, outro jeito
+
+```js
+//Importando o react
+import React from "react";
+
+export default function App_function_Component() {
+  return (
+    <div className="App_function_Component">
+      <h1>Componente principal</h1>
+    </div>
+  );
+}
 ```
 
 ## Componente, Arrow Function
@@ -30,7 +55,7 @@ import React from "react";
 
 const App_Arrow_Funcion = () => {
   return (
-    <div className="AppPrincipal">
+    <div className="App_Arrow_Funcion">
       <h1>Componente principal</h1>
     </div>
   );
@@ -49,7 +74,7 @@ import React from "react";
 class App_Class_Component extends React.Component {
   render() {
     return (
-      <div className="AppPrincipal">
+      <div className="App_Class_Component">
         <h1>Componente principal</h1>
       </div>
     );
@@ -76,7 +101,7 @@ const elemento = (
 //Componente Function Component
 function ElementoJsx() {
   return (
-    <div className="AppElemento">
+    <div className="ElementoJsx">
       {elemento} {/*Repare que estou pegando os dados, fora do componente*/}
     </div>
   );
@@ -113,5 +138,3 @@ function Identificacao() {
 //Exportar componente
 export default Identificacao;
 ```
-
-# Componentes_React
