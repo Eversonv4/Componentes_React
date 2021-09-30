@@ -14,7 +14,6 @@ function App_function_Component() {
   return (
     <div className="AppPrincipal">
       <h1>Componente principal</h1>
-      <Identificacao1 />
     </div>
   );
 }
@@ -33,7 +32,6 @@ const App_Arrow_Funcion = () => {
   return (
     <div className="AppPrincipal">
       <h1>Componente principal</h1>
-      <Identificacao1 />
     </div>
   );
 };
@@ -53,7 +51,6 @@ class App_Class_Component extends React.Component {
     return (
       <div className="AppPrincipal">
         <h1>Componente principal</h1>
-        <Identificacao1 />
       </div>
     );
   }
@@ -116,4 +113,5 @@ function Identificacao() {
 //Exportar componente
 export default Identificacao;
 ```
+
 # Componentes_React
