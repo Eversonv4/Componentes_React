@@ -3,13 +3,18 @@
 ```js
 npx create-react-app Meu_Primeiro_Projeto
 ```
+## Yarn ou NPM (Instalar dependências)
+Você pode instalar as dependência com npm ou yarn, lembre-se se for instalar com o yarn deve instalar ele no seu computador, no site, abaixo.
+
+```js
+https://yarnpkg.com/
+```
 
 ## Node_Modules
 
 Depois que você criar seu projeto, repare que foi criado automático uma pasta
-node_modules, nesta pasta vai conter suas dependências, já foi criado um projeto
-projeto basico de react, de exemplo.
-Exemplo, se você, instalar, o bootstrap, para seu projeto ficar mais bunito, você irá,
+node_modules, nesta pasta vai conter suas dependências, já foi criado um projeto basico de react, de exemplo.
+Exemplo, se você, instalar, o bootstrap, para o estilo do projeto ficar mais bunito, você irá,
 fazer, o comando yarn add bootstrap, no terminal, ai suas dependências vai ficar instalada
 dentro desta pasta, para auxiliar você no desenvolvimento, lembrando que na sua pasta package.json,
 da para ver todos os nomes de suas dependências que foram instaladas, mais facil.
